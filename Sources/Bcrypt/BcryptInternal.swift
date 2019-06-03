@@ -21,6 +21,9 @@
 //
 
 import Foundation
+#if os(Linux)
+import Bsd
+#endif
 
 // BCrypt parameters
 let BCRYPT_SALT_LEN: Int = 16

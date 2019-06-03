@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Bsd",
+        "repositoryURL": "https://github.com/TaborKelly/Bsd.git",
+        "state": {
+          "branch": null,
+          "revision": "2fe7499970ddde2eb9834fbd2ea1e6eca2e08ef8",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
