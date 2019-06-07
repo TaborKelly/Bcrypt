@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:4.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 // We depend on Bsd.
 var dependencies: [Package.Dependency] = []
 #if os(Linux) // But only on Linux
-dependencies.append(.package(url: "https://github.com/TaborKelly/Bsd.git", .upToNextMinor(from: "0.1.0")))
+dependencies.append(.package(url: "https://github.com/TaborKelly/Bsd.git", .upToNextMinor(from: "0.1.1")))
 #endif
 
 let package = Package(
